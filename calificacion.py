@@ -1,7 +1,7 @@
 import numpy as np
 import streamlit as st
 import pandas as pd
-pip install scikit-learn
+
 
 st.write(''' # Predicción de calificación  ''') # el titulo que se agrega a la app
 st.image("Examen_25.jpg", caption="Predicción de calificación en examen.") # pie de figura
