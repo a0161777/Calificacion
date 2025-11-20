@@ -17,8 +17,8 @@ def user_input_features():
 #predicción de peso
   user_input_data = {'hours_studied': Horas_de_estudio,
                      'sleep_hours': Horas_de_sueño,
-                     'attendance_percent': ,# columna de la ciencia de datos es la roja, se debe de llamar igual al sistema de datos
-                     'previous_scores':  Calificaciones_previas,
+                     'attendance_percent': Asistencia,
+                     'previous_scores':  Calificaciones_previas
                      }
 
   features = pd.DataFrame(user_input_data, index=[0])
